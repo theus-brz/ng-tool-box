@@ -24,6 +24,10 @@
       "token-management": [
         "dist/token-management/token-management",
         "dist/token-management"
+      ],
+      "utils": [
+        "dist/utils/utils",
+        "dist/utils"
       ]
     }
   },

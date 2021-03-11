@@ -1,9 +1,9 @@
 {
-  "name": "@theus-brz/token-management",
+  "name": "@theus-brz/ng-token-management",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theus-brz/tool-box"
+    "url": "git://github.com/theus-brz/ng-tool-box"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/theus-brz",
