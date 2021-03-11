@@ -1,14 +1,6 @@
 {
-  "name": "@theus-brz/tool-box",
+  "name": "tool-box",
   "version": "0.0.4",
-  "repository": {
-    "url": "git://github.com/theus-brz/tool-box"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/theus-brz",
-    "access": "public",
-    "tag": "util"
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
