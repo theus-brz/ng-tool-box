@@ -1,6 +1,10 @@
 {
-  "name": "token-management",
+  "name": "@theus-brz/token-management",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theus-brz/tool-box"
+  },
   "peerDependencies": {
     "@angular/common": "^11.2.4",
     "@angular/core": "^11.2.4"
@@ -8,12 +12,14 @@
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "main": "bundles/token-management.umd.js",
-  "module": "fesm2015/token-management.js",
-  "es2015": "fesm2015/token-management.js",
-  "esm2015": "esm2015/token-management.js",
-  "fesm2015": "fesm2015/token-management.js",
-  "typings": "token-management.d.ts",
-  "metadata": "token-management.metadata.json",
-  "sideEffects": false
+  "main": "bundles/theus-brz-token-management.umd.js",
+  "module": "fesm2015/theus-brz-token-management.js",
+  "es2015": "fesm2015/theus-brz-token-management.js",
+  "esm2015": "esm2015/theus-brz-token-management.js",
+  "fesm2015": "fesm2015/theus-brz-token-management.js",
+  "typings": "theus-brz-token-management.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
 }
