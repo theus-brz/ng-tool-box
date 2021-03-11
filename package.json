@@ -1,6 +1,9 @@
 {
-  "name": "tool-box",
+  "name": "@theus-brz/tool-box",
   "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/theus-brz/tool-box"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
