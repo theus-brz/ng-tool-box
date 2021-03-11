@@ -1,9 +1,14 @@
 {
   "name": "@theus-brz/token-management",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/theus-brz/tool-box"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/theus-brz",
+    "access": "public",
+    "tag": "util"
   },
   "peerDependencies": {
     "@angular/common": "^11.2.4",
