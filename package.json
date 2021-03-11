@@ -4,6 +4,11 @@
   "repository": {
     "url": "https://github.com/theus-brz/tool-box"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/theus-brz",
+    "access": "public",
+    "tag": "util"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
