@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "token-management": {
+      "projectType": "library",
+      "root": "projects/token-management",
+      "sourceRoot": "projects/token-management/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/token-management/tsconfig.lib.json",
+            "project": "projects/token-management/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/token-management/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/token-management/src/test.ts",
+            "tsConfig": "projects/token-management/tsconfig.spec.json",
+            "karmaConfig": "projects/token-management/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/token-management/tsconfig.lib.json",
+              "projects/token-management/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "token-management"
 }
