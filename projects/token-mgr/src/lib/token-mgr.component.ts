@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-token-management',
+  selector: 'lib-token-mgr',
   template: `
     <p>
-      token-management works!
+      token-mgr works!
     </p>
   `,
   styles: [
   ]
 })
-export class TokenManagementComponent implements OnInit {
+export class TokenMgrComponent implements OnInit {
 
   constructor() { }
 

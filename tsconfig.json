@@ -21,9 +21,9 @@
       "dom"
     ],
     "paths": {
-      "token-management": [
-        "dist/token-management/token-management",
-        "dist/token-management"
+      "token-mgr": [
+        "dist/token-mgr/token-mgr",
+        "dist/token-mgr"
       ],
       "utils": [
         "dist/utils/utils",

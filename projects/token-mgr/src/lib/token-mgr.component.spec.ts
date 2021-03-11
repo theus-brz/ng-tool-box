@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TokenManagementComponent } from './token-management.component';
+import { TokenMgrComponent } from './token-mgr.component';
 
-describe('TokenManagementComponent', () => {
-  let component: TokenManagementComponent;
-  let fixture: ComponentFixture<TokenManagementComponent>;
+describe('TokenMgrComponent', () => {
+  let component: TokenMgrComponent;
+  let fixture: ComponentFixture<TokenMgrComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TokenManagementComponent ]
+      declarations: [ TokenMgrComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TokenManagementComponent);
+    fixture = TestBed.createComponent(TokenMgrComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
